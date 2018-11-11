@@ -39,12 +39,7 @@
   <collection label="Scoring Analytics">
     <view name="user_investigator"/>
     <view name="geo_scoring_info" />
-    <view name="detect_collect" />
     <view name="detect_search" />
-    <collection label="Beta Analytics">
-      <view name="answers_by_user" />
-      <view name="timebased_question_and_answering_palette" />
-    </collection>
   </collection>
   <view name="scoreboard_health" />
   <view name="countdown"/>
