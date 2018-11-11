@@ -10,11 +10,8 @@
     <a href='/app/lookup_editor/lookup_edit?owner=nobody&amp;namespace=SA-ctf_scoreboard&amp;lookup=ctf_users&amp;type=kv'>Edit Teams/Users</a>
     <a href='/app/lookup_editor/lookup_edit?owner=nobody&amp;namespace=SA-ctf_scoreboard_admin&amp;lookup=ctf_hints&amp;type=kv'>Edit Hints</a>
     <a href='/app/lookup_editor/lookup_edit?owner=nobody&amp;namespace=SA-ctf_scoreboard&amp;lookup=ctf_hint_entitlements&amp;type=kv'>Edit Hint Entitlements</a>
-    <a href='/app/lookup_editor/lookup_edit?owner=nobody&amp;namespace=SA-ctf_scoreboard&amp;lookup=ctf_badges&amp;type=kv'>Edit eBadges</a>
-    <a href='/app/lookup_editor/lookup_edit?owner=nobody&amp;namespace=SA-ctf_scoreboard&amp;lookup=ctf_badge_entitlements&amp;type=kv'>Edit eBadge Entitlements</a>
     <a href='/app/lookup_editor/lookup_edit?owner=nobody&amp;namespace=SA-ctf_scoreboard&amp;lookup=ctf_stealth&amp;type=kv'>Edit Stealth Mode Teams</a>
 	  
-    <view name="assign_ebadges" />
     <view name="adjust_score" />
     <view name="time_setup" />
     <view name="question_access" />
@@ -29,8 +26,6 @@
       <view name="load_sample_answers"/>
       <view name="load_sample_hints"/>
       <view name="load_sample_hint_entitlements"/>
-      <view name="load_sample_badges"/>
-      <view name="load_sample_badge_entitlements"/>
     </collection>
     <collection label="Load PRODUCTION data (DANGER)...">
       <view name="stage_production_content"/>
@@ -38,7 +33,6 @@
       <view name="load_staged_questions"/>
       <view name="load_staged_answers"/>
       <view name="load_staged_hints"/>
-      <view name="load_staged_badges"/>
 
     </collection>
   </collection>
@@ -57,11 +51,7 @@
     </collection>
   </collection>
   <view name="scoreboard_health" />
-  <collection label="Music and Timer">
-    <view name="somafm_music_to_hack_by"/>
-    <view name="final_countdown"/>
-    <view name="countdown"/>
-  </collection>
+  <view name="countdown"/>
   <view name="search" />
   <view name="data_models" />
   <view name="reports" />

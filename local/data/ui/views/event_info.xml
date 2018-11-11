@@ -1,0 +1,22 @@
+<dashboard>
+  <label>Helpful Links</label>
+  <row>
+    <panel>
+      <html>
+
+<h1>
+	During the competition, you may want to open these dashboards in tabs.
+</h1>
+<style>.btn-primary { margin: 5px 10px 5px 0; }</style>
+<p>
+<a href="/app/SA-ctf_scoreboard/AllScores" class="btn btn-primary" target="_blank">All Scores</a>
+<a href="/app/SA-ctf_scoreboard/event_activity" class="btn btn-primary" target="_blank">CTF Activity</a>
+<a href="/app/SA-ctf_scoreboard/score_timeline" class="btn btn-primary" target="_blank">Score timeline</a>
+<a href="/app/SA-ctf_scoreboard/question_timeanswer_densities" class="btn btn-primary" target="_blank">Question and Answer Density</a>
+<a href="countdown" class="btn btn-primary" target="_blank">Timer for event countdown</a>
+</p>
+
+</html>
+    </panel>
+  </row>
+</dashboard>
