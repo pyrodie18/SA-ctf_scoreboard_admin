@@ -1,3 +1,14 @@
 [views/event_info]
 version = 7.1.0
 modtime = 1541966748.305393000
+
+[savedsearches/Base-Score-Admin]
+access = read : [ * ], write : [ admin, ctf_admin ]
+export = system
+owner = admin
+version = 7.1.0
+modtime = 1541971990.270833000
+
+[views/user_investigator]
+version = 7.1.0
+modtime = 1541979830.253505000
