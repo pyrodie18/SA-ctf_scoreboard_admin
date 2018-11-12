@@ -1,0 +1,11 @@
+div#question {
+    width: 60% !important;
+}
+
+div#users_attempted {
+    width: 20% !important;
+}
+
+div#users_correct {
+    width: 20% !important;
+}

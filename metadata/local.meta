@@ -12,3 +12,8 @@ modtime = 1541971990.270833000
 [views/user_investigator]
 version = 7.1.0
 modtime = 1541979830.253505000
+
+[views/question_investigator]
+owner = admin
+version = 7.1.0
+modtime = 1541981373.166480000
