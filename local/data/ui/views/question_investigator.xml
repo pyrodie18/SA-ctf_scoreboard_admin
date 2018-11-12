@@ -67,34 +67,22 @@
     </panel>
     <panel id="users_attempted">
       <title>Users Attempted</title>
-      <table>
+      <single>
         <search base="base_search">
           <query>| stats dc(user) as "Users Who Attempted"</query>
         </search>
-        <option name="count">20</option>
-        <option name="dataOverlayMode">none</option>
         <option name="drilldown">none</option>
-        <option name="percentagesRow">false</option>
-        <option name="rowNumbers">false</option>
-        <option name="totalsRow">false</option>
-        <option name="wrap">true</option>
-      </table>
+      </single>
     </panel>
     <panel id="users_correct">
       <title>Users with Correct Answer</title>
-      <table>
+      <single>
         <search base="base_search">
           <query>| search (Result="Correct")
 | stats dc(user) as "Users Who Completed"</query>
         </search>
-        <option name="count">20</option>
-        <option name="dataOverlayMode">none</option>
         <option name="drilldown">none</option>
-        <option name="percentagesRow">false</option>
-        <option name="rowNumbers">false</option>
-        <option name="totalsRow">false</option>
-        <option name="wrap">true</option>
-      </table>
+      </single>
     </panel>
   </row>
   <row id="Answer">
