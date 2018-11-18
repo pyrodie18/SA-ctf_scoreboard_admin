@@ -17,3 +17,28 @@ modtime = 1541979830.253505000
 owner = admin
 version = 7.1.0
 modtime = 1541981956.775197000
+
+[transforms/ctf_hints]
+access = read : [ * ], write : [ admin, ctf_admin ]
+export = system
+owner = nobody
+version = 7.1.0
+modtime = 1542253994.202546000
+
+[]
+access = read : [ admin, ctf_admin, ctf_answers_service, ctf_competitor, ctf_mentor ], write : [ admin, ctf_admin ]
+export = none
+version = 7.1.0
+modtime = 1542318000.162013000
+
+[app/ui]
+version = 7.1.0
+modtime = 1542318012.128203000
+
+[app/launcher]
+version = 7.1.0
+modtime = 1542318012.132055000
+
+[app/package/check_for_updates]
+version = 7.1.0
+modtime = 1542318012.133309000

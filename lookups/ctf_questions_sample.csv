@@ -1,4 +1,88 @@
-Title,Category,Pregame,Link,Question,EndTime,BasePoints,Number,StartTime,AdditionalBonusPoints,AdditionalBonusInstructions
-Test1,TestCat,,,This is a simple question to get you familiar with submitting answers. What is the name of the company that makes the software that you are using for this competition? Just a six-letter word with no punctuation.,1893456000,50,1,1,5,For 5 points enter the search that helped you answer this question.
-Test2,TestCat2,1,https://www.google.com,What's my favorite color?,1893456000,500,100,1,,
-Test3,TestCat3,,,"What's the answer to the ultimate question of life, the universe and everything?",1893456000,1000,101,1,10,For 10 points enter the search that helped you answer this question.
+Number,Title,Category,Question,Link,BasePoints,StartTime,EndTime,AdditionalBonusInstructions,AdditionalBonusPoints
+1,test_flag,Misc,The flag is acsc18{TestFlag},,5,1542308415,1542394815,,
+2,chat_with_me,Misc,Just visit the ACSC Slack chat to get the flag (and then hang around afterwards for announcements and other information).  Link is below,https://join.slack.com/t/acsc18/shared_invite/enQtNDM0Mzg1NTQ2ODIwLWY3ZmY3YWZjMGNhOTExMWRjOWFlNTQ4YjhjZjk5NTQwYTVlN2M5YTgxN2EyY2YwMzc0MDNlNDdhZTAyMjFmYzU,5,1542308415,1542394815,,
+3,hints,Misc,"Purchase each hint to get the flag (don't worry, you won't actually lose any points for this hint)",,5,1542308415,1542394815,,
+4,Anchovy_Dressing,Cryptography,57n7w3{dkm9a9m6gp97c99n98m9nndib},,30,1542308415,1542394815,,
+5,Crypto 1,Cryptography,"Not a lot to say....find the flag
+
+0x610x630x730x630x310x380x7b0x540x680x69 115077101115115097103101073115 01001001011011100100100001100101011110000100010001100101011000110100001001101001 bkFuZEJhc2V9",,30,1542308415,1542394815,,
+6,DLLicious,Reverse Engineering,"You found a suspicious looking dll on your machine. Can you figure out what its doing?
+File can be found at the link below",https://challenge.acsc18.com/files/DLLicious/acsc.dll,80,1542308415,1542394815,,
+7,SANs,Forensics,"Pretty sure there's more information to this report then meets the eye.
+File can be found at the link below",https://challenge.acsc18.com/files/SANs/2018%20SANS%20Security%20Awareness%20Report.pdf,80,1542308415,1542394815,,
+8,aol,Web Exploitation,"Remember when AOL used the be all the rage? For some reason AOL still thinks it is. So they have released a pretty cool feature, but the system will only allow their own browser to access it. Do you still have one of their free disks?
+(NOTE: Please don't actually install this crap on your system)",,35,1542308415,1542394815,,
+9,ascii_art,Misc,"No real trick here...
+!!!!!!!Flag starts here !!!!!!! ____ ____ _____ ____ ____ _____ _____ _____ ______ _____ ________ ____ ______ ________ ______ ( ) / ) /  / ) / / / _  / ( / _  ( _  ( ) ( ) ( ) ( __  ( ) )  / /  / / ( ( / / / /) ) ( () ) ) ) ( () ) ) () ) | | ) ) / /  ) () ) ) ) ( ( ( () ) ( ( _  ( ( //( (  _ / / /  _ /  / | | ( ( ( () ) ( / ( (   ) ( ( ( ) ) ( ( ) ) / /     / /   / _  | | ) ) ) ( )   _ ) ) / / / /   _ _/ /  _ ( ( ( () ) ) )__ ( () ) ) () ) | | ( ( / /  ( (  _)) ( ( ____( ( /( ) _) // _) / _____/ (( _/ (/ /( / /( ) )) _/ / )______) !!!!!!End of Flag!!!!!!!",,40,1542308415,1542394815,,
+10,browser_version,Forensics,"A shiny new privilege escalation browser exploit was passed on to you and your team. You are so excited, you can hardly contain yourself and with that, want to let 'er rip as soon as possible. You've been working on escalate your privleges for a while and it seems the time has come! As you begin to prep your launcher, you decide to verify the browser platform version on the target one more time. Submit the browser version.
+NOTE: Be sure to submit the flag in the correct format ( acsc18{flag} )
+File can be found at the link below",https://challenge.acsc18.com/files/browser_version/Firefox.zip,30,1542308415,1542394815,,
+11,compiler_voodoo1,Reverse Engineering,"Get the password and submit it for points.
+File can be found at the link below",https://challenge.acsc18.com/files/compiler_voodoo1/voodoo1,150,1542308415,1542394815,,
+12,compiler_voodoo2,Reverse Engineering,"Get the password and submit it for points.
+File can be found at the link below",https://challenge.acsc18.com/files/compiler_voodoo2/voodoo2,180,1542308415,1542394815,,
+13,crackme-1,Reverse Engineering,"How good are you at picking locks? Try your luck here.
+File can be found at the link below",https://challenge.acsc18.com/files/crackme-1/crackme-1,50,1542308415,1542394815,,
+14,crypto-2,Cryptography,"Can you crack the cipher? It looks like the server is using RSA to encrypt secrets.
+challenge.acsc18.com:5001",https://challenge.acsc18.com/files/crypto-2/server.py,100,1542308415,1542394815,,
+15,dsp-2,Misc,"https://imgs.xkcd.com/comics/fourier.jpg
+To read the file into python: ```python f = open('dsp_2.iq', 'rb')
+# read the IQ data from the file as np.complex rx_signal = scipy.fromfile(f, dtype=np.complex)
+f.close() ```",https://challenge.acsc18.com/files/dsp-2/dsp_2.iq,180,1542308415,1542394815,,
+16,decoder,Scripting,"Encryption is hard, encoding is easy, but not very secure. So let's just encode A LOT of times! Don't worry, we even told you what encoding method we used on each pass (encoding...).
+1.  base64 = base64 encoded string 2.  base32 = base32 encoded string 3.  reverse = reverse the order of the string (abc -> cba) 4.  CaseInvert = swap the capitalization of the strig (AbC -> aBc) 5.  rot13 = encode the string with 'rot_13'",,60,1542308415,1542394815,,
+17,exposed_server,Web Exploit,Just another exposed web server. You can find the flag in /etc/flag.txt. NOTE NO TOOLS ARE REQUIRED FOR THIS CHALLENGE!,,60,1542308415,1542394815,,
+18,feeling_lucky,Reverse Engineering,"You found the source code to a slot machine, can you use your insider knowledge to win big?",,60,1542308415,1542394815,,
+19,find_the_key,OSINT,Enter the ip address of the server that is hosting the SSL certificate with the serial number 03:0a:d7:bc:48:8b:05:b9:4f:db:25:70:92:72:c3:98:11:20. Ensure you use to correct flag format acsc18{X.X.X.X},,30,1542308415,1542394815,,
+20,force,Forensics,"Yoda was wise but Luke managed to make it into more movies.
+File can be found at the link below",https://challenge.acsc18.com/files/force/Force.htm,25,1542308415,1542394815,,
+21,forgot_something,Forensics,"The flag is right there, just open the image.
+File can be found at the link below",https://challenge.acsc18.com/files/forgot_something/forgot_something.jpg,35,1542308415,1542394815,,
+22,ftp_capture,Forensics,"Plaintext FTP transfer...what could be easier
+File can be found at the link below",https://challenge.acsc18.com/files/ftp_capture/ftp.pcap,35,1542308415,1542394815,,
+23,jollyroger,Reverse Engineering,"It looks like this smart device provides an unauthenticated web portal to update the firmware. The developers say that they cryptographically sign their code so there's no need to authenticate, but I have a hunch it's not as secure as they think. Can you find a way to upload a modified firmware image?
+challenge.acsc18.com:5003",https://challenge.acsc18.com/files/jollyroger/firmware,150,1542308415,1542394815,,
+24,leaky_crypto,Cryptography,"We encrypted the flag with AES-ECB and a secret key and got the following:  b7695884638a2d5551c0a1ed35142c939a60791aba95dbaedd2994d677907602a0779b858857a3a3d04304fcde225ce7228993a1a0cd57ab37425fc7b32d4ca775053f0b39dccb6e9eb88ae40ec8aa9f
+Unfortunately we lost the key. On the bright side though we did encrypt a bunch of other test flags with the same key before we lost it. Can you help us out?
+File can be found at the link below",https://challenge.acsc18.com/files/leaky_crypto/codes.txt,50,1542308415,1542394815,,
+25,lsb_stego,Forensics,Check out the content hosted at https://challenge.acsc18.com:5004,,40,1542308415,1542394815,,
+26,man1,Linux,Did you know man pages have their own markup language? Check out the man page for tee on this alpine linux docker.,,35,1542308415,1542394815,,
+27,man2,Linux,"Do you know all the things the Strings library is capable of? Well, maybe not on all OS, but on this one.",,40,1542308415,1542394815,,
+28,math_machine2,Scripting,Think you're good at math? Answer 100 simple problems in 2 minutes and you'll get your flag.,,50,1542308415,1542394815,,
+29,math_machine3,Scripting,"Same as last time, but just a little bit of a twist.",,65,1542308415,1542394815,,
+30,obscure_security,Web Exploitation,The server guy has recently upgrade the security on the web portal to ensure that no one can get the flag. Prove him wrong,,30,1542308415,1542394815,,
+31,osintfun,OSINT,Access Sandy Mills-Mills' private sftp server and find the key.,,80,1542308415,1542394815,,
+32,prize,Web Exploitation,"Business has been going great and we are rapidly approaching our 1 millionth visitor. If you happen to be that lucky person, we've got a great prize for you",,45,1542308415,1542394815,,
+33,shape_color,Forensics,"You were given a file that is supposed to be a picture, however, you can open it and don't know why at the moment. Normally you would just move on to something else, however, you can't except defeat and are determined to get it open. Once you finally get it open, submit the flag as the color of the shape in the jpg.
+NOTE: Be sure to submit the flag in the correct format ( acsc18{lowercasecolor} )
+File can be found at the link below",https://challenge.acsc18.com/files/shape_color/shape_color.jpg,45,1542308415,1542394815,,
+34,stupid_stego,Forensics,"I've got an important secret that I can't let anyone else see. I'll just hide it right here.
+File can be found at the link below",https://challenge.acsc18.com/files/stupid_stego/flag.jpg,20,1542308415,1542394815,,
+35,stupid_stego2,Forensics,"Well that didn't work out the way I thought it would at first. Lets try to hide it this way.
+File can be found at the link below",https://challenge.acsc18.com/files/stupid_stego2/stupid_stego2.jpg,50,1542308415,1542394815,,
+36,survey1,Misc,"Connect to to the implant, survey your environment, and send me the flag.",,40,1542308415,1542394815,,
+37,whats_going_on_here,Forensics,"The network dudes are talking about one of our systems beaconing out somewhere. The system has been checked several times already with no evidence of weirdness going on but the beacons are still happening. You've decided to involve some outside help and they've asked for the registry hives of the system. Before shipping them off, you decide to take a gander since you hadn't looked at them. Find the beacons and submit one of the IPs as the flag.
+NOTE: When you submit it, submit it in the correct format though ( acsc18{YourFlag} )
+File can be found at the link below",https://challenge.acsc18.com/files/whats_going_on_here/suspect_registry.zip,50,1542308415,1542394815,,
+38,where_am_i2,Forensics,"Check out this fantastic new website that some company just bough. What city are they located in? NOTE: No you can't just search for the flag you cheaters. The flag is obvious when you find it, but is not currently in the correct format. When you submit it, submit it in the correct format though ( acsc18{YourFlag} )
+File can be found at the link below",https://challenge.acsc18.com/files/where_am_i2/where_am_i2.pcap,25,1542308415,1542394815,,
+39,who_is_this_cat?,Forensics,"Another section is in need of help looking for a potenitally rogue system and all they have is a MAC of 00:0c:29:61:c1:89. We informed them we may be able to assist them in finding the computername of the system tied to the MAC somewhere in our traffic captures but we can't make any promises.
+NOTE: Be sure to submit the flag in the correct format ( acsc18{YourFlag} )
+File can be found at the link below",https://challenge.acsc18.com/files/who_is_this_cat%3f/who.pcap,25,1542308415,1542394815,,
+40,zippity_doo_dah,Forensics,"You were given another zip file off of the hard drive we were analyzing. We also found a text file with it called 'password.txt' and the password was 'powershell'. When we unzipped the file with the password, there was another zip, and another zip. It seems that this file is zipped over and over again with this same password.
+Submit the contents of the file at the root of all the zip files NOTE: Be sure to submit the flag in the correct format ( acsc18{YourFlag} )
+File can be found at the link below",https://challenge.acsc18.com/files/zippity_doo_dah/Zippity.zip,20,1542308415,1542394815,,
+41,Linux1,Linux,"Find the longest line (most characters) in linux1.
+Logon to 52.33.202.4 with the username 'player' using the certificate in the link below",https://challenge.acsc18.com/files/linux/player.pem,20,1542308415,1542394815,,
+42,Linux2,Linux,"How many characters are there in the 3rd column of words in linux2? (Ensure you submit the flag with the acsc18{<CharacterCount>}.
+Logon to 52.33.202.4 with the username 'player' using the certificate in the link below",https://challenge.acsc18.com/files/linux/player.pem,20,1542308415,1542394815,,
+43,Linux3,Linux,"What is the most common 12th chacter in the file linux3.  Case Matters! (Ensure you submit the flag with the acsc18{<Character>}.
+Logon to 52.33.202.4 with the username 'player' using the certificate in the link below",https://challenge.acsc18.com/files/linux/player.pem,20,1542308415,1542394815,,
+44,Linux4,Linux,"What is the name of the file in the Linux4 folder with an md5 hash of 7ae8ef906919add4686419b22ea2e874.
+Logon to 52.33.202.4 with the username 'player' using the certificate in the link below",https://challenge.acsc18.com/files/linux/player.pem,20,1542308415,1542394815,,
+45,Linux5,Linux,"Just find the flag in the folder Linux5.
+Logon to 52.33.202.4 with the username 'player' using the certificate in the link below",https://challenge.acsc18.com/files/linux/player.pem,20,1542308415,1542394815,,
+46,Linux6,Linux,"What version of yum is being used on the VM?  Note:  Ensure you use the acsc18{#.#.#-###} format.
+Logon to 52.33.202.4 with the username 'player' using the certificate in the link below",https://challenge.acsc18.com/files/linux/player.pem,30,1542308415,1542394815,,
+47,Linux7,Linux,"The flag is contained in a file somewhere on the system (Not in the users folder).
+Logon to 52.33.202.4 with the username 'player' using the certificate in the link below",https://challenge.acsc18.com/files/linux/player.pem,20,1542308415,1542394815,,
